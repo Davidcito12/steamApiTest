@@ -41,5 +41,5 @@ Verify that the system uses digital signatures, checksums, or hashes to verify t
 Ensure that all system activity is logged and that logs are monitored for suspicious activity. Make sure that relevant events, such as logins, failed logins, and high-value transactions, are always logged, as well as checking that log data is encoded correctly to prevent injections or attacks on the logging or monitoring systems. Then, use penetration testing and scans by dynamic application security testing (DAST) tools to detect anomalies.
 
 
-# (A10:2021) Server-Side Request Forgery:
+## (A10:2021) Server-Side Request Forgery:
 Check if the system is vulnerable to server-side request forgery attacks, which could allow attackers to make requests from the system to other systems, such as internal or external servers, networks, or services. Verify that the system does not accept or process any untrusted URLs. For this purpose, use a well-tested and maintained URL parser to avoid issues caused by URL parsing inconsistencies. Validate that the system uses whitelists, blacklists, or filters to validate and sanitize any input that could be used to make requests.
